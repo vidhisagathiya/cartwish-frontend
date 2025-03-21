@@ -73,7 +73,7 @@ const Navbar = () => {
       transition={{ duration: 1, ease: "easeInOut" }}
     >
       <div className="align_center">
-        <h1 className="navbar_heading">AV_MART</h1>
+        <h1 className="navbar_heading">CartWish</h1>
         <form className=" align_center navbar_form" onSubmit={handleSubmit}>
           <input
             className="navbar_search"
