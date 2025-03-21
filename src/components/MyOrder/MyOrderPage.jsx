@@ -1,4 +1,5 @@
-import React, { useContext } from "react";
+import React from "react";
+import config from "../../config.json";
 import "./MyOrderPage.css";
 import Table from "../Common/Table";
 import useData from "../../hooks/useData";
@@ -9,7 +10,7 @@ const MyOrderPage = () => {
     data: orders,
     error,
     isLoading,
-  } = useData("/order", null, ["myorders"], 1 * 60 * 1000);
+  } = useData(`${config.backendURL}/order`, null, ["myorders"], 1 * 60 * 1000);
   const getProductString = (order) => {
     const productStringArr = order.products.map(
       (p) => `${p.product.title}(${p.quantity})`
