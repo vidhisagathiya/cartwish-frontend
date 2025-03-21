@@ -1,8 +1,31 @@
-# React + Vite
+# Cartwish - E-commerce Application (Frontend)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 **Welcome to Cartwish!**  
+An electronics e-commerce platform built using **React JS**.
 
-Currently, two official plugins are available:
+## 🛠 Features
+- Homepage with engaging animations
+- Order placement and order history
+- Product sorting by price and rating
+- User authentication (Login/Signup using JWT)
+- Efficient data management with **React Query**
+  - Caching
+  - Mutations
+  - Pagination
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 💻 Tech Stack
+- **Frontend:** React JS, HTML, CSS, JavaScript
+- **State Management:** Context API
+- **Data Management:** React Query
+- **Styling:** CSS Modules
+- **Deployment:** Netlify
+
+## 🎯 Features Implementation
+- **React Query:** Efficient data management with API integration.
+- **Mutations:** Order management, adding reviews, and updating profiles.
+- **Caching:** Optimized API call reduction.
+- **Pagination:** Display large data sets efficiently.
+
+---
+
+🌐 **Live Demo:** [Cartwish on Netlify](https://vidhisagathiya.netlify.app/)  
